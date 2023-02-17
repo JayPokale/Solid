@@ -3,7 +3,7 @@ const Nav = () => {
     <nav class="backdrop-blur-sm">
       <div class="mx-auto max-w-6xl h-14 flex justify-between items-center">
         <div>
-          <h1 class="text-xl font-bold">
+          <h1 class="text-2xl font-bold">
             AuthorsLog<span class="text-xs">.com</span>
           </h1>
         </div>
