@@ -1,16 +1,22 @@
-import { createSignal, JSXElement } from "solid-js";
+import { createSignal } from "solid-js";
 
 const temp = () => {
-  const [arr, setArr] = createSignal([
-    <div class="h-10 w-10 bg-red-400"></div>,
-    <div class="h-10 w-10 bg-blue-400"></div>,
-    <div class="h-10 w-10 bg-green-400"></div>,
-  ])
+  const [i, setI] = createSignal(0);
   setInterval(() => {
-    let x = arr()
-    setArr([x[1],x[2],x[0]])
-  }, 1000);
-  return <div>{...arr()}</div>;
+    setI((i() + 1) % 3);
+    console.log(i());
+  }, 2000);
+  return (
+    <div
+      class={`h-20 w-20 bg-red-400 ${
+        i() === 0
+          ? "translate-x-0"
+          : i() === 1
+          ? "translate-x-32 duration-500"
+          : "translate-x-64 duration-500"
+      }`}
+    ></div>
+  );
 };
 
 export default temp;
