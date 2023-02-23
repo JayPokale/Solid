@@ -84,9 +84,9 @@ const HomePage = () => {
       </div>
 
       {/* Trending Categories */}
-      <div class="flex flex-wrap gap-8 justify-center w-full place-items-center">
+      <div class="flex flex-wrap gap-2 sm:gap-8 justify-center w-full">
         <button
-          class="w-5/12 sm:w-52 aspect-[4/3] rounded-xl duration-300 hover:bg-black/[0.015]"
+          class="w-[calc(50%-4px)] sm:w-52 aspect-[4/3] rounded-xl duration-300 hover:bg-black/[0.015]"
           style={{
             "box-shadow":
               "0 0 0 1px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%), 0 12px 24px rgb(0 0 0 / 5%)",
@@ -95,7 +95,7 @@ const HomePage = () => {
           Container 1
         </button>
         <button
-          class="w-5/12 sm:w-52 aspect-[4/3] rounded-xl duration-300 hover:bg-black/[0.015]"
+          class="w-[calc(50%-4px)] sm:w-52 aspect-[4/3] rounded-xl duration-300 hover:bg-black/[0.015]"
           style={{
             "box-shadow":
               "0 0 0 1px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%), 0 12px 24px rgb(0 0 0 / 5%)",
@@ -104,7 +104,7 @@ const HomePage = () => {
           Container 2
         </button>
         <button
-          class="w-5/12 sm:w-52 aspect-[4/3] rounded-xl duration-300 hover:bg-black/[0.015]"
+          class="w-[calc(50%-4px)] sm:w-52 aspect-[4/3] rounded-xl duration-300 hover:bg-black/[0.015]"
           style={{
             "box-shadow":
               "0 0 0 1px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%), 0 12px 24px rgb(0 0 0 / 5%)",
@@ -113,7 +113,7 @@ const HomePage = () => {
           Container 3
         </button>
         <button
-          class="w-5/12 sm:w-52 aspect-[4/3] rounded-xl duration-300 hover:bg-black/[0.015]"
+          class="w-[calc(50%-4px)] sm:w-52 aspect-[4/3] rounded-xl duration-300 hover:bg-black/[0.015]"
           style={{
             "box-shadow":
               "0 0 0 1px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%), 0 12px 24px rgb(0 0 0 / 5%)",
