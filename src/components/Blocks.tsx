@@ -25,10 +25,10 @@ const Blocks = () => {
         }
       }}
     >
-      <div class="card w-64 h-64 grid place-items-center rounded-lg bg-[#f8f8f8]"></div>
-      <div class="card w-64 h-64 grid place-items-center rounded-lg bg-[#f8f8f8]"></div>
-      <div class="card w-64 h-64 grid place-items-center rounded-lg bg-[#f8f8f8]"></div>
-      <div class="card w-64 h-64 grid place-items-center rounded-lg bg-[#f8f8f8]"></div>
+      <div class="card w-64 h-64 grid place-items-center rounded-lg border"></div>
+      <div class="card w-64 h-64 grid place-items-center rounded-lg border"></div>
+      <div class="card w-64 h-64 grid place-items-center rounded-lg border"></div>
+      <div class="card w-64 h-64 grid place-items-center rounded-lg border"></div>
     </div>
   );
 };
