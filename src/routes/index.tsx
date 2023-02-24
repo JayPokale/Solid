@@ -1,4 +1,4 @@
-import { createSignal } from "solid-js";
+import Blocks from "~/components/Blocks";
 import HomePage from "~/components/HomePage";
 
 const index = () => {
@@ -6,6 +6,7 @@ const index = () => {
   return (
     <div>
       <HomePage/>
+      <Blocks/>
     </div>
   );
 };

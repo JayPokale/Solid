@@ -13,7 +13,7 @@ const HomePage = () => {
   });
 
   return (
-    <div class="max-w-6xl flex flex-col items-center mx-auto gap-12 pt-20">
+    <div class="max-w-6xl flex flex-col items-center mx-auto gap-12 py-12">
       <div
         class="flex flex-col items-center text-4xl 2xs:text-5xl xs:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight"
         style={{ "font-family": "Signika" }}
