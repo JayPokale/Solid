@@ -1,6 +1,6 @@
 const ArticleMain = () => {
   return (
-    <main class="max-w-2xl h-80 w-full px-4">
+    <main class="max-w-2xl w-full px-4">
       <div class="w-full py-4 border-b flex justify-between">
         <div class="flex gap-3">
           <img
