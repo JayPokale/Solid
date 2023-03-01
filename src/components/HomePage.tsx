@@ -1,14 +1,19 @@
 import { createEffect, createSignal } from "solid-js";
+import { A } from "solid-start";
 
 const HomePage = () => {
   const [i, setI] = createSignal(0);
   const [windowActive, setWindowActive] = createSignal(true);
 
   createEffect(() => {
-    window.addEventListener("focus", ()=>{setWindowActive(true)})
-    window.addEventListener("blur", ()=>{setWindowActive(false)});
+    window.addEventListener("focus", () => {
+      setWindowActive(true);
+    });
+    window.addEventListener("blur", () => {
+      setWindowActive(false);
+    });
     setInterval(() => {
-      windowActive() && setI((i() + 1) % 3)
+      windowActive() && setI((i() + 1) % 3);
     }, 2000);
   });
 
@@ -75,12 +80,14 @@ const HomePage = () => {
         >
           Create Post
         </button>
-        <button
-          class="w-60 py-2 rounded-lg bg-white"
-          style={{ "box-shadow": "0 4px 14px rgb(0 0 0 / 10%)" }}
-        >
-          Explore
-        </button>
+        <A href="/explore">
+          <button
+            class="w-60 py-2 rounded-lg bg-white"
+            style={{ "box-shadow": "0 4px 14px rgb(0 0 0 / 10%)" }}
+          >
+            Explore
+          </button>
+        </A>
       </div>
 
       {/* Trending Categories */}
