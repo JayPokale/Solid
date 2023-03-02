@@ -5,12 +5,6 @@ const ExploreList = () => {
   const articles = Array(10);
   return (
     <div class="max-w-2xl w-full px-4 flex flex-col divide-y">
-      <Head>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-        />
-      </Head>
       <For each={articles}>
         {() => (
           <div class="w-full h-48 py-4">

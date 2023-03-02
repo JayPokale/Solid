@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <nav class="backdrop-blur-sm">
+    <nav class="bg-white fixed w-full top-0 px-4 left-0 border-b" style={{"z-index":"20"}}>
       <div class="mx-auto max-w-screen-2xl h-14 flex justify-between items-center">
         <div>
           <h1 class="text-2xl font-bold" style={{ "font-family": "Signika" }}>
