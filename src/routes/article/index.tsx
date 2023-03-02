@@ -3,7 +3,7 @@ import ArticleMain from "~/components/ArticleMain";
 
 const article = () => {
   return (
-    <div class="max-w-6xl mx-auto flex justify-center border-t">
+    <div class="max-w-screen-2xl mx-auto flex justify-center border-t">
       <ArticleMain />
       <ArticleAside />
     </div>
