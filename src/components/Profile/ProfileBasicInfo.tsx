@@ -1,7 +1,7 @@
-const ProfileBasic = () => {
+const ProfileBasicInfo = () => {
   return (
     <div
-      class="max-w-xs w-full rounded-md p-4"
+      class="w-full rounded-md p-4"
       style={{
         "box-shadow":
           "0 0 0 1px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%), 0 12px 24px rgb(0 0 0 / 5%)",
@@ -13,14 +13,14 @@ const ProfileBasic = () => {
           alt="name here"
           class="w-24 h-24 rounded-xl"
         />
-        <div class="h-24 flex flex-col justify-evenly font-medium">
-          <p>Name of the Writer</p>
-          <p class="text-sm text-gray-600">Username</p>
-          <div class="flex items-baseline gap-1">
+        <div class="flex flex-col justify-evenly font-medium">
+          <p class="max-w-[176px]">Name of the Writer</p>
+          <p class="max-w-[176px] text-sm text-gray-600">Username</p>
+          <div class="max-w-[176px] flex items-baseline gap-1">
             <p class="text-xl text-black font-semibold">5k</p>
             <p class="text-sm text-gray-600 font-medium">Followers</p>
           </div>
-          <p class="text-sm text-gray-600">
+          <p class="max-w-[176px] text-sm text-gray-600">
             From: <span class="text-black">India</span>
           </p>
         </div>
@@ -59,4 +59,4 @@ const ProfileBasic = () => {
   );
 };
 
-export default ProfileBasic;
+export default ProfileBasicInfo;
