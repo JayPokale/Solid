@@ -4,7 +4,7 @@ import { A, Head } from "solid-start";
 const ExploreList = () => {
   const articles = Array(10);
   return (
-    <div class="max-w-2xl w-full px-4 flex flex-col divide-y">
+    <div class="max-w-3xl w-full px-4 flex flex-col divide-y">
       <For each={articles}>
         {() => (
           <div class="w-full h-48 py-4">
