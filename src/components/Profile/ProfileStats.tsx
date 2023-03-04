@@ -12,13 +12,23 @@ const ProfileStats = () => {
           <p class="font-semibold text-lg h-6">50</p>
           <p class="text-sm">Articles</p>
         </div>
-        <div class="text-sm text-gray-500"><span class="font-semibold">500M</span> Views</div>
+        <div class="text-sm text-gray-500">
+          <span class="font-semibold">500M</span> Views
+        </div>
       </div>
       <div class="flex flex-col w-52 h-full justify-evenly text-sm px-8 text-gray-500">
-        <div><span class="font-semibold">123M</span> Likes</div>
-        <div><span class="font-semibold">654k</span> Saves</div>
-        <div><span class="font-semibold">513k</span> Comments</div>
-        <div><span class="font-semibold">423k</span> Shares</div>
+        <div>
+          <span class="font-semibold">123M</span> Likes
+        </div>
+        <div>
+          <span class="font-semibold">654k</span> Saves
+        </div>
+        <div>
+          <span class="font-semibold">513k</span> Comments
+        </div>
+        <div>
+          <span class="font-semibold">423k</span> Shares
+        </div>
       </div>
     </div>
   );

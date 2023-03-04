@@ -37,7 +37,10 @@ const ArticleMain = () => {
           alt="Article thumbnail"
           class="py-4"
         />
-        <div class="text-justify space-y-4 py-4 indent-12 text-lg" style={{ "font-family": "Inter" }}>
+        <div
+          class="text-justify space-y-4 py-4 indent-12 text-lg"
+          style={{ "font-family": "Inter" }}
+        >
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
             nesciunt. Odit cupiditate iste cum, maxime eum quo eos assumenda,
@@ -60,7 +63,31 @@ const ArticleMain = () => {
             repellat amet quod facilis, harum asperiores! Deleniti quam
             quibusdam totam saepe dolor, magni accusantium officiis.
           </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eligendi est ipsum maxime minima iusto? Atque praesentium rem ratione repudiandae voluptas autem suscipit nisi, mollitia molestiae saepe id quidem. Amet quas aliquam libero exercitationem quasi soluta, molestias repudiandae eaque non nostrum, labore incidunt! Incidunt, iure qui optio molestias ullam dolore, repudiandae a, at quidem rerum exercitationem culpa? Ab cumque quam nisi animi reprehenderit quasi architecto! Labore reiciendis odio quaerat dicta esse amet sed saepe laudantium accusantium facilis? Nostrum optio ex cumque ipsam magni velit hic eligendi voluptatum, corporis provident cupiditate, unde rem. Nihil non quam labore quisquam quaerat ad sapiente pariatur modi, nesciunt recusandae, similique excepturi. Dolorum, minus obcaecati nisi ducimus modi atque blanditiis natus temporibus, ea vel incidunt quaerat aspernatur quasi. Totam natus illo esse, architecto officiis mollitia praesentium labore aliquam non? Sed, earum! Est suscipit dignissimos doloremque? At iure eius dolor cumque illum quibusdam repellat nihil veniam voluptatum, ipsum velit corrupti officia a ex optio tempora debitis placeat, nam incidunt nesciunt ut! Id cum fugiat error recusandae blanditiis nihil asperiores nobis sed. Magnam reiciendis, vel porro consectetur repellendus possimus tempore hic nihil libero! Soluta sed sapiente, consequuntur optio minus fugit tempora, ducimus pariatur est eius ad tempore id.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            eligendi est ipsum maxime minima iusto? Atque praesentium rem
+            ratione repudiandae voluptas autem suscipit nisi, mollitia molestiae
+            saepe id quidem. Amet quas aliquam libero exercitationem quasi
+            soluta, molestias repudiandae eaque non nostrum, labore incidunt!
+            Incidunt, iure qui optio molestias ullam dolore, repudiandae a, at
+            quidem rerum exercitationem culpa? Ab cumque quam nisi animi
+            reprehenderit quasi architecto! Labore reiciendis odio quaerat dicta
+            esse amet sed saepe laudantium accusantium facilis? Nostrum optio ex
+            cumque ipsam magni velit hic eligendi voluptatum, corporis provident
+            cupiditate, unde rem. Nihil non quam labore quisquam quaerat ad
+            sapiente pariatur modi, nesciunt recusandae, similique excepturi.
+            Dolorum, minus obcaecati nisi ducimus modi atque blanditiis natus
+            temporibus, ea vel incidunt quaerat aspernatur quasi. Totam natus
+            illo esse, architecto officiis mollitia praesentium labore aliquam
+            non? Sed, earum! Est suscipit dignissimos doloremque? At iure eius
+            dolor cumque illum quibusdam repellat nihil veniam voluptatum, ipsum
+            velit corrupti officia a ex optio tempora debitis placeat, nam
+            incidunt nesciunt ut! Id cum fugiat error recusandae blanditiis
+            nihil asperiores nobis sed. Magnam reiciendis, vel porro consectetur
+            repellendus possimus tempore hic nihil libero! Soluta sed sapiente,
+            consequuntur optio minus fugit tempora, ducimus pariatur est eius ad
+            tempore id.
+          </p>
         </div>
       </article>
     </main>

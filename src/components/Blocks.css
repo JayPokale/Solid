@@ -1,39 +1,38 @@
-.cards:hover .card:hover::after{
+.cards:hover .card:hover::after {
   opacity: 1;
 }
-.card::after{
+.card::after {
   content: "";
   width: 100%;
   height: 100%;
   position: absolute;
   background: radial-gradient(
-    800px circle at var(--mouse-x) var(--mouse-y), 
-    rgba(0,0,0, 0.1),
+    800px circle at var(--mouse-x) var(--mouse-y),
+    rgba(0, 0, 0, 0.1),
     transparent 40%
   );
   opacity: 0;
   transition: opacity 500ms;
 }
 
-
-.cards:hover .cardborder::after{
+.cards:hover .cardborder::after {
   opacity: 1;
 }
-.cardborder{
-  border: 1px solid rgba(0,0,0, 0.1);
+.cardborder {
+  border: 1px solid rgba(0, 0, 0, 0.1);
   transition: border 500ms;
 }
-.cards:hover .cardborder{
+.cards:hover .cardborder {
   border: 1px solid transparent;
 }
-.cardborder::after{
+.cardborder::after {
   content: "";
   width: 100%;
   height: 100%;
   position: absolute;
   background: radial-gradient(
-    800px circle at var(--mouse-x) var(--mouse-y), 
-    rgba(0,0,0, 0.1),
+    800px circle at var(--mouse-x) var(--mouse-y),
+    rgba(0, 0, 0, 0.1),
     transparent 40%
   );
   opacity: 0;
