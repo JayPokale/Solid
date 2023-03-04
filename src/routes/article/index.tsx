@@ -5,7 +5,7 @@ const article = () => {
   return (
     <div class="max-w-screen-2xl mx-auto flex justify-center border-t">
       <ArticleMain />
-      <div class="w-80 py-4">
+      <div class="w-80 py-4 hidden lg:block">
         <ProfileBasicInfo />
       </div>
     </div>

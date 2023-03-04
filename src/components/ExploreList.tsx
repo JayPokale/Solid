@@ -1,5 +1,5 @@
 import { For } from "solid-js";
-import { A, Head } from "solid-start";
+import { A } from "solid-start";
 
 const ExploreList = () => {
   const articles = Array(10);
@@ -17,14 +17,16 @@ const ExploreList = () => {
                 />
                 <div class="flex flex-col gap-2">
                   <div class="flex justify-between">
-                    <div class="flex gap-2 items-center">
-                      <img
-                        src="https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206&q=80"
-                        alt="name here"
-                        class="w-6 h-6 rounded-full"
-                      />
-                      <p class="text-sm">Name of the Writer</p>
-                    </div>
+                    <A href="/profile">
+                      <div class="flex gap-2 items-center">
+                        <img
+                          src="https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206&q=80"
+                          alt="name here"
+                          class="w-6 h-6 rounded-full"
+                        />
+                        <p class="text-sm">Name of the Writer</p>
+                      </div>
+                    </A>
                     <div class="flex gap-2">
                       <span
                         class="material-symbols-outlined"
