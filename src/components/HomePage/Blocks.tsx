@@ -4,7 +4,7 @@ import "./Blocks.css";
 const Blocks = () => {
   const block = [1, 2, 3, 4];
   return (
-    <div
+    <main
       id="cards"
       class="cards flex flex-wrap justify-center gap-2 mx-auto max-w-4xl"
       onMouseMove={(e) => {
@@ -26,7 +26,7 @@ const Blocks = () => {
           </div>
         )}
       </For>
-    </div>
+    </main>
   );
 };
 

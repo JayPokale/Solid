@@ -4,7 +4,7 @@ import { A } from "solid-start";
 const ExploreList = () => {
   const articles = Array(10);
   return (
-    <div class="max-w-3xl w-full px-4 flex flex-col divide-y">
+    <main class="max-w-3xl w-full px-4 flex flex-col divide-y">
       <For each={articles}>
         {() => (
           <div class="w-full h-48 py-4">
@@ -85,7 +85,7 @@ const ExploreList = () => {
           </div>
         )}
       </For>
-    </div>
+    </main>
   );
 };
 

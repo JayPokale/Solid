@@ -1,6 +1,6 @@
 const ProfileAbout = () => {
   return (
-    <div
+    <main
       class="max-w-4xl w-full rounded-md p-4"
       style={{
         "box-shadow":
@@ -48,7 +48,7 @@ const ProfileAbout = () => {
           Facere quod odio aut autem!
         </p>
       </div>
-    </div>
+    </main>
   );
 };
 

@@ -18,7 +18,7 @@ const HomePage = () => {
   });
 
   return (
-    <div class="max-w-screen-2xl flex flex-col items-center mx-auto gap-12 py-12">
+    <main class="max-w-screen-2xl flex flex-col items-center mx-auto gap-12 py-12">
       <div
         class="flex flex-col items-center text-4xl 2xs:text-5xl xs:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight"
         style={{ "font-family": "Signika" }}
@@ -129,7 +129,7 @@ const HomePage = () => {
           Container 4
         </button>
       </div>
-    </div>
+    </main>
   );
 };
 

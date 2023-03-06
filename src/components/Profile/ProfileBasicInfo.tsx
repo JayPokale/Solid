@@ -1,6 +1,6 @@
 const ProfileBasicInfo = () => {
   return (
-    <div
+    <main
       class="w-full rounded-md p-4"
       style={{
         "box-shadow":
@@ -55,7 +55,7 @@ const ProfileBasicInfo = () => {
           </button>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

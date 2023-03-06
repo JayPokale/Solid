@@ -1,6 +1,6 @@
 const ProfileActivities = () => {
   return (
-    <div
+    <main
       class="w-full rounded-md p-4 flex flex-col gap-2"
       style={{
         "box-shadow":
@@ -28,7 +28,7 @@ const ProfileActivities = () => {
         </p>
         <p class="grid place-items-center text-base">You Followed</p>
       </div>
-    </div>
+    </main>
   );
 };
 

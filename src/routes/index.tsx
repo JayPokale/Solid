@@ -1,5 +1,5 @@
-import Blocks from "~/components/Blocks";
-import HomePage from "~/components/HomePage";
+import Blocks from "~/components/HomePage/Blocks";
+import HomePage from "~/components/HomePage/HomePage";
 
 const index = () => {
   return (

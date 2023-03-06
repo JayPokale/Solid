@@ -1,6 +1,6 @@
 const ProfileStats = () => {
   return (
-    <div
+    <main
       class="w-full rounded-md px-6 py-4 flex justify-between items-center"
       style={{
         "box-shadow":
@@ -30,7 +30,7 @@ const ProfileStats = () => {
           <span class="font-semibold">423k</span> Shares
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
