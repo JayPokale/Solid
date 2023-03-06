@@ -74,12 +74,14 @@ const HomePage = () => {
         autem!
       </h1>
       <div class="flex gap-8 flex-col sm:flex-row">
-        <button
-          class="w-60 py-2 rounded-lg bg-black text-white"
-          style={{ "box-shadow": "0 4px 14px rgb(0 0 0 / 30%)" }}
-        >
-          Create Post
-        </button>
+        <A href="/write">
+          <button
+            class="w-60 py-2 rounded-lg bg-black text-white"
+            style={{ "box-shadow": "0 4px 14px rgb(0 0 0 / 30%)" }}
+          >
+            Create Post
+          </button>
+        </A>
         <A href="/explore">
           <button
             class="w-60 py-2 rounded-lg bg-white"

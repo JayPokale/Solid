@@ -26,7 +26,12 @@ const write = () => {
             onInput={(e) => setSubtitle((e.target as HTMLInputElement).value)}
           />
         </div>
-        <label for="thumbnail" class="flex gap-2 justify-center items-center text-gray-500 rounded-md border py-4 drop-shadow-sm cursor-pointer bg-white">
+        <label
+          for="thumbnail"
+          class={`flex gap-2 justify-center items-center text-gray-500 rounded-md border py-4 drop-shadow-sm cursor-pointer bg-white ${
+            thumbnail() && "hidden"
+          }`}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -60,10 +65,16 @@ const write = () => {
           </svg>
           Select an image
         </label>
-        <input type="file" id="thumbnail" class="hidden" accept=".jpg, .jpeg, .png"
-          onchange={e => {
-            if((e.target as HTMLInputElement).files?.[0]){
-              setThumbnail(URL.createObjectURL((e.target as HTMLInputElement).files![0]))
+        <input
+          type="file"
+          id="thumbnail"
+          class="hidden"
+          accept=".jpg, .jpeg, .png"
+          onchange={(e) => {
+            if ((e.target as HTMLInputElement).files?.[0]) {
+              setThumbnail(
+                URL.createObjectURL((e.target as HTMLInputElement).files![0])
+              );
             }
           }}
         />
