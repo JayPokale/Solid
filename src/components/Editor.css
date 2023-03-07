@@ -1,0 +1,5 @@
+.ce-popover__item[data-item-name="withBorder"],
+.ce-popover__item[data-item-name="withBackground"],
+.ce-popover__item[data-item-name="stretched"] {
+  display: none;
+}
