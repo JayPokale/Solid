@@ -66,7 +66,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <h1 class="text-center text-lg text-gray-600">
+      <h1 class="max-w-6xl text-center text-lg text-gray-600">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
         placeat id consequuntur mollitia adipisci accusamus officiis maiores
         recusandae fugiat! Pariatur quas, illum nostrum modi doloremque dolore

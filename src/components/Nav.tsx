@@ -1,3 +1,5 @@
+import { A } from "solid-start";
+
 const Nav = () => {
   return (
     <nav
@@ -6,9 +8,11 @@ const Nav = () => {
     >
       <div class="mx-auto max-w-screen-2xl h-14 flex justify-between items-center">
         <div>
-          <h1 class="text-2xl font-bold" style={{ "font-family": "Signika" }}>
-            AuthorsLog<span class="text-xs">.com</span>
-          </h1>
+          <A href="/">
+            <h1 class="text-2xl font-bold" style={{ "font-family": "Signika" }}>
+              AuthorsLog<span class="text-xs">.com</span>
+            </h1>
+          </A>
         </div>
         <div>
           <ul class="flex gap-4">

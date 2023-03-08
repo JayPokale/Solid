@@ -8,8 +8,8 @@ const ExploreList = () => {
       <For each={articles}>
         {() => (
           <div class="w-full h-48 py-4">
-            <A href="/article">
-              <div class="flex gap-4">
+            <div class="flex gap-4">
+              <A href="/article">
                 <div class="h-40 w-40">
                   <img
                     src="https://images.unsplash.com/photo-1678008583224-cd4f9582ef37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
@@ -17,39 +17,41 @@ const ExploreList = () => {
                     class="w-full h-full object-cover"
                   />
                 </div>
-                <div class="flex flex-col gap-2 flex-1">
-                  <div class="flex justify-between">
-                    <A href="/profile">
-                      <div class="flex gap-2 items-center">
-                        <img
-                          src="https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206&q=80"
-                          alt="name here"
-                          class="w-6 h-6 rounded-full"
-                        />
-                        <p class="text-sm">Name of the Writer</p>
-                      </div>
-                    </A>
-                    <div class="flex gap-2">
-                      <span
-                        class="material-symbols-outlined"
-                        style={{
-                          "font-variation-settings":
-                            "'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 20",
-                        }}
-                      >
-                        bookmarks
-                      </span>{" "}
-                      <span
-                        class="material-symbols-outlined"
-                        style={{
-                          "font-variation-settings":
-                            "'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 20",
-                        }}
-                      >
-                        share
-                      </span>
+              </A>
+              <div class="flex flex-col gap-2 flex-1">
+                <div class="flex justify-between">
+                  <A href="/profile">
+                    <div class="flex gap-2 items-center">
+                      <img
+                        src="https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206&q=80"
+                        alt="name here"
+                        class="w-6 h-6 rounded-full"
+                      />
+                      <p class="text-sm">Name of the Writer</p>
                     </div>
+                  </A>
+                  <div class="flex gap-2">
+                    <span
+                      class="material-symbols-outlined"
+                      style={{
+                        "font-variation-settings":
+                          "'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 20",
+                      }}
+                    >
+                      bookmarks
+                    </span>{" "}
+                    <span
+                      class="material-symbols-outlined"
+                      style={{
+                        "font-variation-settings":
+                          "'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 20",
+                      }}
+                    >
+                      share
+                    </span>
                   </div>
+                </div>
+                <A href="/article">
                   <div class="flex flex-col gap-1">
                     <h2
                       class="overflow-hidden text-ellipsis"
@@ -78,12 +80,12 @@ const ExploreList = () => {
                       skip to the good part
                     </h3>
                   </div>
-                  <div class="flex gap-4 mt-auto text-xs text-gray-500">
-                    3 month ago
-                  </div>
+                </A>
+                <div class="flex gap-4 mt-auto text-xs text-gray-500">
+                  3 month ago
                 </div>
               </div>
-            </A>
+            </div>
           </div>
         )}
       </For>

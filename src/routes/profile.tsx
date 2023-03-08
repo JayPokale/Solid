@@ -8,7 +8,7 @@ const profile = () => {
   return (
     <div class="max-w-screen-2xl w-full mx-auto flex justify-center">
       <div class="w-full flex flex-wrap md:flex-nowrap justify-center gap-4 my-4">
-        <div class="w-full md:w-80 flex flex-col gap-4">
+        <div class="w-full md:w-80 h-max flex flex-col gap-4">
           <ProfileBasicInfo />
           <ProfileStats />
           <ProfileActivities />
